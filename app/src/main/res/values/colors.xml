@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Standart Farben -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="gray">#FF808080</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="purple">#FF800080</color>
+    <color name="brown">#FFA52A2A</color>
+
+    <!-- Dunkle Farben -->
+    <color name="dark_red">#FF8B0000</color>
+    <color name="dark_green">#FF006400</color>
+    <color name="dark_blue">#FF00008B</color>
+    <color name="dark_yellow">#FF8B8B00</color>
+    <color name="dark_cyan">#FF008B8B</color>
+    <color name="dark_magenta">#FF8B008B</color>
+    <color name="dark_orange">#FFFF8C00</color>
+    <color name="dark_purple">#FF800080</color>
+    <color name="dark_brown">#FF8B4513</color>
+    <color name="dark_gray">#FFA9A9A9</color>
+
+
+    <!-- Helle Farben -->
+    <color name="light_red">#FFFF4500</color>
+    <color name="light_green">#FF90EE90</color>
+    <color name="light_blue">#FFADD8E6</color>
+    <color name="light_yellow">#FFFFFF00</color>
+    <color name="light_cyan">#FFE0FFFF</color>
+    <color name="light_magenta">#FFFF00FF</color>
+    <color name="light_orange">#FFFFA500</color>
+    <color name="light_purple">#FFBA55D3</color>
+    <color name="light_brown">#FFCD853F</color>
+    <color name="light_gray">#FFD3D3D3</color>
+
+    <!-- Rot -->
+    <color name="red_10">#FF1A0000</color>
+    <color name="red_20">#FF330000</color>
+    <color name="red_30">#FF4D0000</color>
+    <color name="red_40">#FF660000</color>
+    <color name="red_50">#FF800000</color>
+    <color name="red_60">#FF990000</color>
+    <color name="red_70">#FFB30000</color>
+    <color name="red_80">#FFCC0000</color>
+    <color name="red_90">#FFE50000</color>
+    <color name="red_100">#FFFF0000</color>
+
+    <!-- Grün -->
+    <color name="green_10">#FF001A00</color>
+    <color name="green_20">#FF003300</color>
+    <color name="green_30">#FF004D00</color>
+    <color name="green_40">#FF006600</color>
+    <color name="green_50">#FF008000</color>
+    <color name="green_60">#FF009900</color>
+    <color name="green_70">#FF00B300</color>
+    <color name="green_80">#FF00CC00</color>
+    <color name="green_90">#FF00E500</color>
+    <color name="green_100">#FF00FF00</color>
+
+    <!-- Blau -->
+    <color name="blue_10">#FF00001A</color>
+    <color name="blue_20">#FF000033</color>
+    <color name="blue_30">#FF00004D</color>
+    <color name="blue_40">#FF000066</color>
+    <color name="blue_50">#FF000080</color>
+    <color name="blue_60">#FF000099</color>
+    <color name="blue_70">#FF0000B3</color>
+    <color name="blue_80">#FF0000CC</color>
+    <color name="blue_90">#FF0000E5</color>
+    <color name="blue_100">#FF0000FF</color>
+
+    <!-- Gelb -->
+    <color name="yellow_10">#FF191900</color>
+    <color name="yellow_20">#FF333300</color>
+    <color name="yellow_30">#FF4D4D00</color>
+    <color name="yellow_40">#FF666600</color>
+    <color name="yellow_50">#FF808000</color>
+    <color name="yellow_60">#FF999900</color>
+    <color name="yellow_70">#FFB3B300</color>
+    <color name="yellow_80">#FFCCCC00</color>
+    <color name="yellow_90">#FFE5E500</color>
+    <color name="yellow_100">#FFFFFF00</color>
+
+    <!-- Cyan -->
+    <color name="cyan_10">#FF001919</color>
+    <color name="cyan_20">#FF003333</color>
+    <color name="cyan_30">#FF004D4D</color>
+    <color name="cyan_40">#FF006666</color>
+    <color name="cyan_50">#FF008080</color>
+    <color name="cyan_60">#FF009999</color>
+    <color name="cyan_70">#FF00B3B3</color>
+    <color name="cyan_80">#FF00CCCC</color>
+    <color name="cyan_90">#FF00E5E5</color>
+    <color name="cyan_100">#FF00FFFF</color>
+
+    <!-- Magenta -->
+    <color name="magenta_10">#FF190019</color>
+    <color name="magenta_20">#FF330033</color>
+    <color name="magenta_30">#FF4D004D</color>
+    <color name="magenta_40">#FF660066</color>
+    <color name="magenta_50">#FF800080</color>
+    <color name="magenta_60">#FF990099</color>
+    <color name="magenta_70">#FFB300B3</color>
+    <color name="magenta_80">#FFCC00CC</color>
+    <color name="magenta_90">#FFE500E5</color>
+    <color name="magenta_100">#FFFF00FF</color>
+
+    <!-- Orange -->
+    <color name="orange_10">#FF191300</color>
+    <color name="orange_20">#FF332600</color>
+    <color name="orange_30">#FF4D3900</color>
+    <color name="orange_40">#FF665200</color>
+    <color name="orange_50">#FF804000</color>
+    <color name="orange_60">#FF996600</color>
+    <color name="orange_70">#FFB38600</color>
+    <color name="orange_80">#FFCC9900</color>
+    <color name="orange_90">#FFE5B200</color>
+    <color name="orange_100">#FFFFCC00</color>
+
+    <!-- Lila -->
+    <color name="purple_10">#FF130019</color>
+    <color name="purple_20">#FF260033</color>
+    <color name="purple_30">#FF39004D</color>
+    <color name="purple_40">#FF520066</color>
+    <color name="purple_50">#FF400080</color>
+    <color name="purple_60">#FF660099</color>
+    <color name="purple_70">#FF8600B3</color>
+    <color name="purple_80">#FF9900CC</color>
+    <color name="purple_90">#FFB200E5</color>
+    <color name="purple_100">#FFCC00FF</color>
+
+    <!-- Braun -->
+    <color name="brown_10">#FF191300</color>
+    <color name="brown_20">#FF332600</color>
+    <color name="brown_30">#FF4D3900</color>
+    <color name="brown_40">#FF665200</color>
+    <color name="brown_50">#FF804000</color>
+    <color name="brown_60">#FF996600</color>
+    <color name="brown_70">#FFB38600</color>
+    <color name="brown_80">#FFCC9900</color>
+    <color name="brown_90">#FFE5B200</color>
+    <color name="brown_100">#FFFFCC00</color>
+
+</resources>

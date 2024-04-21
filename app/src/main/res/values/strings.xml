@@ -1,0 +1,116 @@
+<resources>
+    <string name="time_start">00:00</string>
+
+    <!-- App Name -->
+    <string name="app_name">Promodoro</string>
+
+    <!-- Allgemeine Aktionen -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="close">Schließen</string>
+    <string name="back">Zurück</string>
+
+    <!-- Fehlermeldungen -->
+    <string name="error_generic">Ein Fehler ist aufgetreten.</string>
+    <string name="error_network">Keine Verbindung zum Netzwerk.</string>
+    <string name="error_permission">Keine Berechtigung.</string>
+    <string name="error_input">Ungültige Eingabe.</string>
+
+    <!-- Hinweise und Bestätigungen -->
+    <string name="confirm_delete">Möchtest du wirklich löschen?</string>
+    <string name="save_success">Erfolgreich gespeichert.</string>
+    <string name="delete_success">Erfolgreich gelöscht.</string>
+
+    <!-- Aktionen -->
+    <string name="edit">Bearbeiten</string>
+    <string name="add">Hinzufügen</string>
+    <string name="update">Aktualisieren</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="send">Senden</string>
+    <string name="share">Teilen</string>
+    <string name="search">Suchen</string>
+    <string name="select">Auswählen</string>
+    <string name="view_details">Details anzeigen</string>
+    <string name="next">Weiter</string>
+    <string name="previous">Zurück</string>
+    <string name="done">Fertig</string>
+    <string name="retry">Erneut versuchen</string>
+
+    <!-- Platzhalter -->
+    <string name="placeholder_name">Name</string>
+    <string name="placeholder_email">E-Mail</string>
+    <string name="placeholder_password">Passwort</string>
+    <string name="placeholder_confirm_password">Passwort bestätigen</string>
+    <string name="placeholder_search">Suchen...</string>
+    <string name="placeholder_description">Beschreibung</string>
+
+    <!-- Statusmeldungen -->
+    <string name="status_loading">Lade...</string>
+    <string name="status_empty">Keine Daten verfügbar.</string>
+    <string name="status_error">Fehler beim Laden der Daten.</string>
+    <string name="status_no_results">Keine Ergebnisse gefunden.</string>
+
+    <!-- Datum und Zeit -->
+    <string name="date_format">dd.MM.yyyy</string>
+    <string name="time_format_12h">hh:mm a</string>
+    <string name="time_format_24h">HH:mm</string>
+
+    <!-- Sonstiges -->
+    <string name="welcome_message">Willkommen!</string>
+    <string name="about">Über</string>
+    <string name="settings">Einstellungen</string>
+    <string name="privacy_policy">Datenschutzrichtlinie</string>
+    <string name="terms_of_service">Nutzungsbedingungen</string>
+
+    <!-- Aktivitäten und Abschnitte -->
+    <string name="activity_main">Startseite</string>
+    <string name="activity_profile">Profil</string>
+    <string name="activity_settings">Einstellungen</string>
+    <string name="activity_about">Über uns</string>
+    <string name="section_home">Startseite</string>
+    <string name="section_profile">Profil</string>
+    <string name="section_settings">Einstellungen</string>
+    <string name="section_about">Über uns</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Startseite</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="nav_about">Über uns</string>
+    <string name="nav_logout">Abmelden</string>
+
+    <!-- Benachrichtigungen -->
+    <string name="notification_title">Benachrichtigung</string>
+    <string name="notification_message">Du hast eine neue Nachricht erhalten.</string>
+
+    <!-- Fehlermeldungen -->
+    <string name="error_server">Serverfehler. Bitte versuche es später erneut.</string>
+    <string name="error_no_internet">Keine Internetverbindung. Bitte überprüfe deine Netzwerkeinstellungen.</string>
+    <string name="error_unknown">Unbekannter Fehler. Bitte versuche es später erneut.</string>
+
+    <!-- Buttons -->
+    <string name="button_confirm">Bestätigen</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_retry">Wiederholen</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nein</string>
+
+    <!-- Einstellungen -->
+    <string name="setting_notifications">Benachrichtigungen</string>
+    <string name="setting_sound">Ton</string>
+    <string name="setting_vibration">Vibration</string>
+    <string name="setting_dark_mode">Dunkler Modus</string>
+
+    <!-- Feedback -->
+    <string name="feedback_thank_you">Vielen Dank für dein Feedback!</string>
+    <string name="feedback_error">Fehler beim Senden des Feedbacks. Bitte versuche es später erneut.</string>
+
+
+</resources>
