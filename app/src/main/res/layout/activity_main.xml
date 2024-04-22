@@ -8,7 +8,7 @@
     android:outlineAmbientShadowColor="#EC0909"
     android:outlineProvider="bounds"
     tools:context=".MainActivity">
-<!--ref: refs/heads/main-->
+
     <Button
         android:id="@+id/start_btn"
         android:layout_width="wrap_content"

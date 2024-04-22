@@ -3,6 +3,7 @@ package th.koeln.pomodoro
 import android.content.Context
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -19,11 +20,21 @@ class MainActivity : AppCompatActivity() {
         val startButton = findViewById<Button>(R.id.start_btn) // Start Button
         /*---------------------------------------------------------------------*/
 
+
+
         //Timer beim drücken vom Button starten
         startButton.setOnClickListener {
-            timer(timerView,30)
-        }
+            var isRunning = false
+            val min = 30 // Stelle hier die Minuten ein!
+            if (timerView.callOnClick()){
+                timer(timerView,min)
+            }else{
+                isRunning = true
+                startButton.accessibilityDelegate
+            }
 
+
+        }
     }
 }
 
@@ -34,6 +45,7 @@ class MainActivity : AppCompatActivity() {
  */
 
 fun timer(timerTextView:TextView, min:Int){
+
    val duration = 60000L * min // Minuten in Millisekunden
    val counter = object : CountDownTimer(duration, 1000) {
          override fun onTick(millisUntilFinished: Long) {
@@ -46,11 +58,15 @@ fun timer(timerTextView:TextView, min:Int){
          }
 
          override fun onFinish() {
-             timerTextView.text = "00:00"
+             timerTextView.text = "$min:00"
              timerTextView.textAlignment = TextView.TEXT_ALIGNMENT_CENTER // nach dem der Timer abläuft Text in der Mitte halten
 
          }
      }
     counter.start()
+}
+
+fun timerStop(){
+
 }
 
